@@ -1,0 +1,29 @@
+链接：https://www.nowcoder.com/acm/contest/139/J
+来源：牛客网
+
+Given a sequence of integers a1, a2, ..., an and q pairs of integers (l1, r1), (l2, r2), ..., (lq, rq), find count(l1, r1), count(l2, r2), ..., count(lq, rq) where count(i, j) is the number of different integers among a1, a2, ..., ai, aj, aj + 1, ..., an.
+输入描述:
+The input consists of several test cases and is terminated by end-of-file.
+The first line of each test cases contains two integers n and q.
+The second line contains n integers a1, a2, ..., an.
+The i-th of the following q lines contains two integers li and ri.
+输出描述:
+For each test case, print q integers which denote the result.
+示例1
+输入
+3 2
+1 2 1
+1 2
+1 3
+4 1
+1 2 3 4
+1 3
+输出
+2
+1
+3
+备注:
+* 1 ≤ n, q ≤ 105
+* 1 ≤ ai ≤ n
+* 1 ≤ li, ri ≤ n
+* The number of test cases does not exceed 10.
